@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "auctionhud",
+  "version": "1.0.0",
+  "name": "Auction HUD",
+  "description": "Client-side auction overlay for DonutSMP: timer, top bidder, min bid, items.",
+  "authors": ["Alon"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["com.alon.auctionhud.AuctionHudMod"]
+  },
+  "depends": {
+    "fabricloader": ">=0.19.3",
+    "minecraft": "~26.2",
+    "java": ">=25",
+    "fabric-api": "*"
+  }
+}
