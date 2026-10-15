@@ -24,7 +24,7 @@ public final class AuctionHud {
         AuctionConfig cfg = AuctionHudMod.config;
         AuctionState st = AuctionHudMod.state;
         Minecraft mc = Minecraft.getInstance();
-        if (!cfg.hudVisible || mc.options.hideGui || mc.player == null) return;
+        if (!cfg.hudVisible || mc.player == null) return;
 
         Font font = mc.font;
         String ign = cfg.ign.isEmpty() ? mc.getUser().getName() : cfg.ign;
